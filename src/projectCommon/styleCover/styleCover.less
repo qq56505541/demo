@@ -1,0 +1,23 @@
+/**
+这里书写需要覆盖框架组件的样式
+注意:需要添加!important不然不能覆盖
+例如:
+我要修改 button的背景颜色
+.ant-btn-primary{background-color:red !important;}
+*/
+
+/**
+演示文档时，将faceConfig.js中的defaultTheme设置为'example'，同时放开以下代码
+.ant-btn.ant-btn-default:hover {
+  color: @text-color;
+  border-color: @primary-color;
+  background: #daeafb;
+}
+.ant-select-dropdown-menu-item-selected.ant-select-dropdown-menu-item-active {
+  color: #fff;
+  background: @primary-color;
+}*/
+/* 解决ie下搜索框字体居右 */
+.search-box {
+  text-align: left;
+}
