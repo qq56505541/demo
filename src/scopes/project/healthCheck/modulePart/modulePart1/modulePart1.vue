@@ -62,7 +62,7 @@
     </ta-modal>
 
     <!-- 新增或者编辑功能 -->
-    <edit-health-check-set :visible="visible" :record="record" :title="title" @cancel="handleCancel" v-if="visible"/>
+    <edit-health-check-set v-if="visible" :visible="visible" :record="record" :title="title" @cancel="handleCancel" />
   </div>
 </template>
 

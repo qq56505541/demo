@@ -321,7 +321,8 @@ const webpackCommonConfig = {
   // 项目新增模块
   projectModules: [
     'demoTest',
-    'healthCheck'
+    'healthCheck',
+    'illPerMng'
   ],
   locale: {
     // moment默认提取en及下列国际化文本,在修改值时,需要到node_modules/moment/locale下确认文件名称
